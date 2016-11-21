@@ -1,0 +1,12 @@
+{
+  "name": "Lenovobox Relevance App For Teambition",
+  "host": "http://example.com",
+  "app": {
+    "client_id": "",
+    "client_secret": "",
+    "description": "创建 teambition 应用，并配置 client_id & client_secret"
+  },
+  "lenovobox": {
+    "host": ""
+  }
+}

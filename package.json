@@ -1,0 +1,29 @@
+{
+  "name": "lenovobox-relevance-app",
+  "version": "1.0.0",
+  "description": "联想网盘关联插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeqiang/lenovobox-relevance-app.git"
+  },
+  "author": "Teambition",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leeqiang/lenovobox-relevance-app/issues"
+  },
+  "homepage": "https://github.com/leeqiang/lenovobox-relevance-app#readme",
+  "dependencies": {
+    "jsonwebtoken": "^7.1.9",
+    "koa": "^1.2.4",
+    "koa-router": "^5.4.0",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "standard": "^8.4.0"
+  }
+}
