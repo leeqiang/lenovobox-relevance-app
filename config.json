@@ -7,6 +7,7 @@
     "description": "创建 teambition 应用，并配置 client_id & client_secret"
   },
   "lenovobox": {
-    "host": ""
+    "host": "",
+    "downloadHost": ""
   }
 }

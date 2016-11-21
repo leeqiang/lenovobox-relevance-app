@@ -3,9 +3,9 @@
 该插件支持将 Lenovobox 关联到 Teambition 任务上。
 
 TODO
-- 单文件查看地址
+- <del>单文件查看地址</del>
+- <del>中文文件夹的问题</del>
 - 认证机制
-- 中文文件夹的问题
 
 ## 配置文件
 ```json
@@ -18,16 +18,18 @@ TODO
     "description": "创建 teambition 应用，并配置 client_id & client_secret"
   },
   "lenovobox": {
-    "host": "http://xx.xxx.xxx.xxx"
+    "host": "http://xx.xxx.xxx.xxx",
+    "downloadHost": "http://xx.xxx.xxx.xxx"
   }
 }
 ```
 
-## 第一步, 配置 lenovobox 服务地址
+## 第一步, 配置 lenovobox 服务地址及下载地址
 
 ```
 lenovobox: {
-  host: "http://xx.xxx.xxx.xxx"
+  host: "http://xx.xxx.xxx.xxx",
+  downloadHost: "http://xx.xxx.xxx.xxx"
 }
 ```
 
@@ -52,10 +54,11 @@ app: {
 ## 第二步，开发应用
 
 关联插件需要提供两个API, 具体数据结构可查看代码
-- 菜单列表的 API(/folder/my)
-- 子项内容的 API(/folder/:subFolder)
+- 菜单列表的 API(`/folder/my`)
+- 子项内容的 API(`/folder/:subFolder`)
 
 网盘接口: `/v2/metadata/databox`
+网盘接口: `/v2/files/databox`
 
 如果列表内容较多需要分页，关联插件会主动添加 `count` 和 `page` 参数，供开发者实现分页功能。
 
