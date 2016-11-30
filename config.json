@@ -1,6 +1,8 @@
 {
   "name": "Lenovobox Relevance App For Teambition",
-  "host": "http://example.com",
+  "port": 10000,
+  "host": "http://lenovobox.project.ci",
+  "redirectUrl": "/",
   "app": {
     "client_id": "",
     "client_secret": "",

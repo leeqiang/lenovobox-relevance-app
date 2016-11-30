@@ -5,13 +5,15 @@
 TODO
 - <del>单文件查看地址</del>
 - <del>中文文件夹的问题</del>
-- 认证机制
+- <del>认证机制</del>
 
 ## 配置文件
 ```json
 {
   "name": "Lenovobox Relevance App For Teambition",
+  "port": 10000,
   "host": "http://192.168.0.127:8080",
+  "redirectUrl": "授权成功后跳转的地址",
   "app": {
     "client_id": "baa74ec0-afbf-11e6-83c9-1960e6f4542f",
     "client_secret": "31a22bd9-7113-4628-a433-ce8fb3fe87d4",
